@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'checkout.apps.CheckoutConfig',
     'register.apps.RegisterConfig',
     'loginform.apps.LoginformConfig',
     'menu.apps.MenuConfig',
